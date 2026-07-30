@@ -1,0 +1,48 @@
+# Lina
+
+> Lina is a medical coworking company providing space, community, and support for independent healthcare practitioners in private practice. It offers turnkey private office suites plus HIPAA/OSHA-compliant on-demand medical, therapy, and bodywork space bookable by the hour or by the day, in New York City and Florida. Lina publishes no public API or developer documentation.
+
+Generated: 2026-07-19
+Method: generated (from apis.yml and live site probes; lina.co/llms.txt returned 404)
+
+## Company
+
+- [Website](https://lina.co/): Lina medical coworking home page.
+- [About](https://lina.co/about): Company story and founders (Vicrum Puri and Rachel Puri).
+- [Providers](https://lina.co/providers): Practitioner-facing overview.
+- [Locations](https://lina.co/locations): All Lina locations.
+- [Growth](https://lina.co/growth): Practice growth resources.
+- [Testimonials](https://lina.co/testimonials): Member testimonials.
+- [Press](https://lina.co/press-new): Press coverage.
+- [Blog](https://lina.co/blog): Lina blog.
+- [Contact](https://lina.co/contact): Contact and tour scheduling. Phone 1-800-369-3556.
+
+## Spaces
+
+- [Private Office](https://lina.co/private-office): Dedicated, customizable suites with 24/7 access to shared amenities.
+- [On Demand Medical](https://lina.co/on-demand/medical): HIPAA/OSHA-compliant clinical space bookable by the day.
+- [On Demand Therapy](https://lina.co/on-demand/therapy): Sound-proofed therapy space by the hour or day.
+- [On Demand Bodywork](https://lina.co/on-demand/bodywork): Bodywork space by the hour or day.
+
+## Locations
+
+- [NoMad, New York City](https://lina.co/new-york-city/nomad)
+- [Grand Central, New York City](https://lina.co/new-york-city/grand-central)
+- [Aventura, Florida](https://lina.co/florida/aventura)
+
+Announced: Washington DC, West Palm Beach, Upper West Side NYC, Brooklyn.
+
+## Legal
+
+- [Terms and Conditions](https://lina.co/terms-and-conditions)
+- [Privacy Policy](https://lina.co/privacy)
+
+## APIs
+
+None published. As of 2026-07-19 Lina exposes no public API, developer portal, OpenAPI definition, SDK, webhook surface, or /.well-known/ discovery documents. Requests for integration should go through https://lina.co/contact.
+
+## API Evangelist
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/lina/refs/heads/main/apis.yml): Machine-readable index for this profile.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/lina/refs/heads/main/security/lina-domain-security.yml)
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/lina/refs/heads/main/well-known/lina-well-known.yml)

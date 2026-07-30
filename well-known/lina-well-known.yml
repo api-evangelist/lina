@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://lina.co/.well-known/*
+host: https://lina.co
+notes: >-
+  Lina publishes no /.well-known/ discovery surface. All five standard documents were probed
+  live and returned 404. Recorded as valid negative results; no files were saved.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
