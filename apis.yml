@@ -1,19 +1,44 @@
 aid: lina
 name: Lina
-description: Lina is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Lina is a medical coworking company providing space, community, and support for independent
+  healthcare practitioners in private practice. Founded by Vicrum Puri and Rachel Puri, Lina offers
+  turnkey private office suites alongside on-demand medical, therapy, and bodywork spaces that are
+  HIPAA and OSHA compliant and bookable by the hour or by the day. Locations operate in NoMad and
+  Grand Central in New York City and Aventura, Florida, with expansion announced for Washington DC,
+  West Palm Beach, the Upper West Side, and Brooklyn. Lina is a Bloomberg Beta portfolio company.
+  It operates a Webflow marketing site and publishes no public API, developer portal, or machine-readable
+  interface as of this enrichment pass.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5da74f01c975e728997f59b1/5da798939d56fd798477cdf4_Hero1-p-1600.jpeg
 url: https://raw.githubusercontent.com/api-evangelist/lina/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Coworking
+- Real Estate
+- Medical
+- Mental Health
+- Wellness
+- Private Practice
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,32 @@ maintainers:
 common:
 - type: Website
   url: https://lina.co/
+- type: About
+  url: https://lina.co/about
+- type: Blog
+  url: https://lina.co/blog
+- type: Support
+  url: https://lina.co/contact
+- type: TermsOfService
+  url: https://lina.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://lina.co/privacy
+- type: Press
+  url: https://lina.co/press-new
+- type: LinkedIn
+  url: https://linkedin.com/company/joinlina
+- type: Facebook
+  url: https://facebook.com/lina.space
+- type: Instagram
+  url: https://instagram.com/join.lina
+- type: DomainSecurity
+  url: security/lina-domain-security.yml
+- type: WellKnown
+  url: well-known/lina-well-known.yml
+- type: LLMsTxt
+  url: llms/lina-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
