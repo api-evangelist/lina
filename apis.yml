@@ -45,7 +45,7 @@ tags:
 - Company
 - Healthcare
 - Co-Working
-- Real-Estate
+- Real Estate
 - Medical
 - Mental Health
 - Wellness
@@ -59,6 +59,7 @@ tags_raw:
 - Mental Health
 - Wellness
 - Private Practice
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
