@@ -64,19 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lina is a medical coworking company providing space, community, and support for independent healthcare practitioners in private practice. Founded by Vicrum Puri and Rachel Puri, Lina offers turnkey private office suites alongside on-demand medical, therapy, and bodywork spaces that are HIPAA and OSHA compliant and bookable by the hour or by the day.
+Lina is a medical coworking company providing space, community, and support for independent healthcare practitioners in private practice. Founded by Vicrum Puri and Rachel Puri, Lina offers turnkey private office suites alongside on-demand medical, therapy, and bodywork spaces that are HIPAA and OSHA compliant and bookable by the hour or by the day. Locations operate in NoMad and Grand Central in New York City and Aventura, Florida, with expansion announced for Washington DC, West Palm Beach, the Upper West Side, and Brooklyn. Lina is a Bloomberg Beta portfolio company. It operates a Webflow marketing site and publishes no public API, developer portal, or machine-readable interface as of this enrichment pass.
 
-Locations operate in NoMad and Grand Central in New York City and Aventura, Florida, with expansion announced for Washington DC, West Palm Beach, the Upper West Side, and Brooklyn.
+**Areas:** Company · Healthcare · Co-Working · Real Estate · Medical · Mental Health · Wellness · Private Practice
 
-Backed by: bloomberg-beta — https://lina.co/
+## Lina on APIs.io
 
-## API surface
+Everything profiled for Lina is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lina/](https://apis.io/providers/lina/)** — or go straight to one of the APIs or properties below.
 
-As of the 2026-07-19 enrichment pass, Lina publishes **no public API**, developer portal, OpenAPI definition, SDK, CLI, webhook surface, or `/.well-known/` discovery documents. The site is a Webflow marketing property. Artifacts in this repo are limited to identity, a generated `llms.txt`, and live probe results.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `apis.yml` — APIs.json 0.20 profile
-- `llms/lina-llms.txt` — generated llms.txt
-- `security/lina-domain-security.yml` — probed TLS/HSTS/DNS posture
-- `well-known/lina-well-known.yml` — probed `/.well-known/` surface (all 404)
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lina Domain Security](https://apis.io/security/lina/lina-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lina.co/)
+- [Support](https://lina.co/contact)
+- [Blog](https://lina.co/blog)
+- [Terms of service](https://lina.co/terms-and-conditions)
+- [Privacy policy](https://lina.co/privacy)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lina/](https://apis.io/providers/lina/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lina: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lina/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
